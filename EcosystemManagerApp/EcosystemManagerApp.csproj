@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="EcosystemManager.Api\EcosystemManager.Api.csproj" />
+    <None Include="EcosystemManager.Application\EcosystemManager.Application.csproj" />
+    <None Include="EcosystemManager.Domain\EcosystemManager.Domain.csproj" />
+    <None Include="EcosystemManager.Infrastructure\EcosystemManager.Infrastructure.csproj" />
+    <None Include="EcosystemManagerApp.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi" Version="2.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>

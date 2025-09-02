@@ -1,0 +1,23 @@
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== BACKEND (.NET) =====
+EcosystemManagerApp/**/bin/
+EcosystemManagerApp/**/obj/
+EcosystemManagerApp/**/.vs/
+EcosystemManagerApp/**/*.user
+EcosystemManagerApp/**/*.suo
+EcosystemManagerApp/**/logs/
+#**/Properties/launchSettings.json
