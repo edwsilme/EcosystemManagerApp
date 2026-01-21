@@ -23,7 +23,7 @@ Incluye **backend en .NET 9.0**.
 ---
 
 ## 📂 Estructura del proyecto
-
+```text
 /EcosystemManagerApp
 	|- EcosystemManagerApp/ # API .NET (Clean Architecture)
 		|- EcosystemManager.Api/
@@ -31,7 +31,7 @@ Incluye **backend en .NET 9.0**.
     |- EcosystemManager.Domain/
     |- EcosystemManager.Infrastructure/
 	|- README.md
-
+```
  ---
 
 
@@ -47,18 +47,21 @@ Incluye **backend en .NET 9.0**.
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/edwsilme/EcosystemManagerApp.git
-
+	```
 2. Cambiar a Rama develop:
    ```bash
    git switch develop
+   ```
 
 3. Dirijirse a la carpeta WebApi
    ```bash
    cd EcosystemManagerApp/EcosystemManager.Api
+   ```
 
 4. Ejecutar la API:
    ```bash
    dotnet run --launch-profile https
+   ```
 
 ---
 Enlaces:
